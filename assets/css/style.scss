@@ -1,0 +1,151 @@
+@import "mixins/normalize.scss";
+
+html, body{
+  background: #fffaf3;
+  color: #333;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+h1, h2, h3, h4, .currency{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+h3{
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+h4{
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+a{
+  color: #888;
+
+  &:hover{
+    opacity: .6;
+  }
+}
+
+header{
+  img{
+    border-radius: 30px;
+    display: block;
+    height: 60px;
+    margin: 2rem auto;
+    width: 60px;
+  }
+
+  h1{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  h2{
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  p{
+    color: #888;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+}
+
+.section{
+  h3{
+    margin: 0 0 2rem;
+    padding: 0;
+  }
+}
+
+#finance{
+  background-color: #fff6d2;
+  padding: 2rem;
+
+  .column{
+
+    ul{
+      list-style-type: none;
+      margin: 0 0 3rem;
+      padding: 0;
+
+      li{
+        display: flex;
+        font-size: .8rem;
+        list-style-type: none;
+        margin: 0 0 1rem;
+        padding: 0;
+
+        .icon{
+          span{
+            display: inline-block;
+            font-weight: 900;
+            height: 20px;
+            line-height: 18px;
+            margin: 0 .5rem 0 0;
+            text-align: center;
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .sum{
+    border-bottom: 1px solid #eadb9e;
+    border-top: 1px solid #eadb9e;
+    font-size: 1.2rem;
+    margin: 2rem 1rem 2rem 0;
+    padding: 1rem 0 1rem 0;
+  }
+
+  #column--expense{
+    ul{
+      li{
+        .minus{
+          background: #e10101;
+          border-radius: 15px;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  #column--income{
+    ul{
+      li{
+        .plus{
+          background: #07bb77;
+          border-radius: 15px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.columns{
+  
+  margin: 0 auto;
+  max-width: 960px;
+
+  .column{
+    flex: 1;
+  }
+}
