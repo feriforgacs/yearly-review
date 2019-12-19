@@ -442,4 +442,20 @@ header p {
 .product-cards .card--gifthunt .card__footer {
   border-top: 1px solid #0A1151;
 }
+
+.product-cards .card--discounthunt {
+  background: #670CAF;
+}
+
+.product-cards .card--discounthunt::before {
+  border: 2px solid #BF055E;
+}
+
+.product-cards .card--discounthunt .card__header {
+  border-bottom: 1px solid #8322d0;
+}
+
+.product-cards .card--discounthunt .card__footer {
+  border-top: 1px solid #8322d0;
+}
 /*# sourceMappingURL=style.css.map */
