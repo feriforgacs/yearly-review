@@ -282,5 +282,21 @@ header{
         border-top: 1px solid #150a1e;
       }
     }
+
+    &--gifthunt{
+      background: #17217B;
+
+      &::before{
+        border: 2px solid #09FF97;
+      }
+
+      .card__header{
+        border-bottom: 1px solid #0A1151;
+      }
+
+      .card__footer{
+        border-top: 1px solid #0A1151;
+      }
+    }
   }
 }

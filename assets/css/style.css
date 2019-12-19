@@ -426,4 +426,20 @@ header p {
 .product-cards .card--reproduct .card__footer {
   border-top: 1px solid #150a1e;
 }
+
+.product-cards .card--gifthunt {
+  background: #17217B;
+}
+
+.product-cards .card--gifthunt::before {
+  border: 2px solid #09FF97;
+}
+
+.product-cards .card--gifthunt .card__header {
+  border-bottom: 1px solid #0A1151;
+}
+
+.product-cards .card--gifthunt .card__footer {
+  border-top: 1px solid #0A1151;
+}
 /*# sourceMappingURL=style.css.map */
