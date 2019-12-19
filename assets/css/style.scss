@@ -8,7 +8,7 @@ html, body{
   line-height: 150%;
 }
 
-h1, h2, h3, h4, .currency{
+h1, h2, h3, h4, .currency, .number{
   font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
@@ -68,6 +68,8 @@ header{
 }
 
 .section{
+  padding: 2rem;
+
   h3{
     margin: 0 0 2rem;
     padding: 0;
@@ -76,7 +78,6 @@ header{
 
 #finance{
   background-color: #fff6d2;
-  padding: 2rem;
 
   .column{
 
@@ -138,6 +139,14 @@ header{
       }
     }
   }
+
+  #column--domains{
+    ul{
+      li{
+        display: block;
+      }
+    }
+  }
 }
 
 .columns{
@@ -147,5 +156,83 @@ header{
 
   .column{
     flex: 1;
+  }
+}
+
+.product-cards{
+  .card{
+    background: #0e0c3c;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .4);
+    color: #fff;
+    margin: 0 auto 2rem;
+    padding: 1rem 1.5rem 1rem 1rem;
+    position: relative;
+    z-index: 2;
+
+    h4{
+      font-size: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    &::before{
+      border: 2px solid cyan;
+      box-sizing: border-box;
+      content: "";
+      display: block;
+      height: 100%;
+      left: -0.5rem;
+      position: absolute;
+      top: -0.5rem;
+      width: 100%;
+      z-index: -1;
+    }
+
+    &__header{
+      border-bottom: 1px solid #211d7d;
+      padding: 0 0 1rem 0;
+    }
+
+    &__footer{
+      border-top: 1px solid #211d7d;
+      padding: 1rem 0;
+
+      a{
+        color: #fff;
+        display: block;
+        font-size: .8rem;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+
+    &--creativedevjobs{
+      background: #fff000;
+      color: #333;
+
+      &::before{
+        border: 2px solid #931438;
+      }
+
+      .card__header{
+        border-bottom: 1px solid #e6d806;
+      }
+
+      .card__footer{
+        border-top: 1px solid #e6d806;
+
+        a{
+          color: #931438;
+        }
+      }
+    }
+
+    &--twis{
+      background: linear-gradient(242.49deg,#5200ff 0,#003cff 100%);
+
+      &::before{
+        border: 2px solid #f80bef;
+      }
+    }
   }
 }

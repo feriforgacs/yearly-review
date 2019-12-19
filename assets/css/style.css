@@ -170,7 +170,7 @@ html, body {
   line-height: 150%;
 }
 
-h1, h2, h3, h4, .currency {
+h1, h2, h3, h4, .currency, .number {
   font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
@@ -227,6 +227,10 @@ header p {
   padding: 0 1rem;
 }
 
+.section {
+  padding: 2rem;
+}
+
 .section h3 {
   margin: 0 0 2rem;
   padding: 0;
@@ -234,7 +238,6 @@ header p {
 
 #finance {
   background-color: #fff6d2;
-  padding: 2rem;
 }
 
 #finance .column ul {
@@ -283,6 +286,10 @@ header p {
   color: #fff;
 }
 
+#finance #column--domains ul li {
+  display: block;
+}
+
 .columns {
   margin: 0 auto;
   max-width: 960px;
@@ -292,5 +299,83 @@ header p {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+.product-cards .card {
+  background: #0e0c3c;
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  margin: 0 auto 2rem;
+  padding: 1rem 1.5rem 1rem 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.product-cards .card h4 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.product-cards .card::before {
+  border: 2px solid cyan;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -0.5rem;
+  position: absolute;
+  top: -0.5rem;
+  width: 100%;
+  z-index: -1;
+}
+
+.product-cards .card__header {
+  border-bottom: 1px solid #211d7d;
+  padding: 0 0 1rem 0;
+}
+
+.product-cards .card__footer {
+  border-top: 1px solid #211d7d;
+  padding: 1rem 0;
+}
+
+.product-cards .card__footer a {
+  color: #fff;
+  display: block;
+  font-size: .8rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.product-cards .card--creativedevjobs {
+  background: #fff000;
+  color: #333;
+}
+
+.product-cards .card--creativedevjobs::before {
+  border: 2px solid #931438;
+}
+
+.product-cards .card--creativedevjobs .card__header {
+  border-bottom: 1px solid #e6d806;
+}
+
+.product-cards .card--creativedevjobs .card__footer {
+  border-top: 1px solid #e6d806;
+}
+
+.product-cards .card--creativedevjobs .card__footer a {
+  color: #931438;
+}
+
+.product-cards .card--twis {
+  background: linear-gradient(242.49deg, #5200ff 0, #003cff 100%);
+}
+
+.product-cards .card--twis::before {
+  border: 2px solid #f80bef;
 }
 /*# sourceMappingURL=style.css.map */
