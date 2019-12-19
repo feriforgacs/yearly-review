@@ -378,4 +378,20 @@ header p {
 .product-cards .card--twis::before {
   border: 2px solid #f80bef;
 }
+
+.product-cards .card--storyview {
+  background: #2E1641;
+}
+
+.product-cards .card--storyview::before {
+  border: 2px solid #8000FF;
+}
+
+.product-cards .card--storyview .card__header {
+  border-bottom: 1px solid #100717;
+}
+
+.product-cards .card--storyview .card__footer {
+  border-top: 1px solid #100717;
+}
 /*# sourceMappingURL=style.css.map */
