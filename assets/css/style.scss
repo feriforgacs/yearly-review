@@ -250,5 +250,21 @@ header{
         border-top: 1px solid #100717;
       }
     }
+
+    &--makergoals{
+      background: linear-gradient(145deg,#00b27f 0,#00825d 100%);
+
+      &::before{
+        border: 2px solid #fff;
+      }
+
+      .card__header{
+        border-bottom: 1px solid #21886b;
+      }
+
+      .card__footer{
+        border-top: 1px solid #21886b;
+      }
+    }
   }
 }

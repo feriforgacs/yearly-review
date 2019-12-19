@@ -394,4 +394,20 @@ header p {
 .product-cards .card--storyview .card__footer {
   border-top: 1px solid #100717;
 }
+
+.product-cards .card--makergoals {
+  background: linear-gradient(145deg, #00b27f 0, #00825d 100%);
+}
+
+.product-cards .card--makergoals::before {
+  border: 2px solid #fff;
+}
+
+.product-cards .card--makergoals .card__header {
+  border-bottom: 1px solid #21886b;
+}
+
+.product-cards .card--makergoals .card__footer {
+  border-top: 1px solid #21886b;
+}
 /*# sourceMappingURL=style.css.map */
