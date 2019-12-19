@@ -266,5 +266,21 @@ header{
         border-top: 1px solid #21886b;
       }
     }
+
+    &--reproduct{
+      background: #2E1641;
+
+      &::before{
+        border: 2px solid #AAC6FC;
+      }
+
+      .card__header{
+        border-bottom: 1px solid #150a1e;
+      }
+
+      .card__footer{
+        border-top: 1px solid #150a1e;
+      }
+    }
   }
 }

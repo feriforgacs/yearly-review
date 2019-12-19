@@ -410,4 +410,20 @@ header p {
 .product-cards .card--makergoals .card__footer {
   border-top: 1px solid #21886b;
 }
+
+.product-cards .card--reproduct {
+  background: #2E1641;
+}
+
+.product-cards .card--reproduct::before {
+  border: 2px solid #AAC6FC;
+}
+
+.product-cards .card--reproduct .card__header {
+  border-bottom: 1px solid #150a1e;
+}
+
+.product-cards .card--reproduct .card__footer {
+  border-top: 1px solid #150a1e;
+}
 /*# sourceMappingURL=style.css.map */
