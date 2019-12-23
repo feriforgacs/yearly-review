@@ -477,4 +477,11 @@ img {
 #fun {
   background: #f4c407;
 }
+
+.photo__caption {
+  display: block;
+  font-size: .7rem;
+  font-style: italic;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

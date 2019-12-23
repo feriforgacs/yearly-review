@@ -335,3 +335,13 @@ img{
 #fun{
   background: #f4c407;
 }
+
+.photo{
+
+  &__caption{
+    display: block;
+    font-size: .7rem;
+    font-style: italic;
+    text-align: center;
+  }
+}
