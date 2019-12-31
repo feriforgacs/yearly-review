@@ -345,3 +345,78 @@ img{
     text-align: center;
   }
 }
+
+@media only screen and (min-width: 1024px){
+  .columns{
+    display: flex;
+
+    .column{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      flex: 0 0 40%;
+    }
+  }
+
+  .section{
+    p, h3{
+      margin-left: auto;
+      margin-right: auto;
+      max-width: calc(960px - 3rem);
+    }
+  }
+
+  #header{
+    p{
+      margin-left: auto;
+      margin-right: auto;
+      max-width: calc(960px - 3rem);
+    }
+  }
+
+  #goals{
+    .columns{
+      flex-wrap: wrap;
+
+      .column{
+        flex: 0 0 40%;
+      }
+    }
+  }
+
+  #fun{
+    .section--photo{
+      display: flex;
+      margin: 0 auto;
+      max-width: calc(960px - 3rem);
+  
+      .text{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 1rem 0;
+      }
+  
+      .photo{
+        flex: 1;
+      }
+    }
+
+    .gallery{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      max-width: calc(960px - 3rem);
+
+      .photo{
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 50%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+      }
+    }
+  }
+  
+}
