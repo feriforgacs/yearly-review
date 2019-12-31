@@ -465,3 +465,21 @@ footer{
     }
   }
 }
+
+#maker-report-bar{
+  background: #53FFDB;
+  color: #333;
+  padding: .5rem;
+  text-align: center;
+
+  p{
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+    color: #663FEF;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

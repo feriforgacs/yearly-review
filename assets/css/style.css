@@ -633,4 +633,22 @@ footer a {
     margin-top: 1rem;
   }
 }
+
+#maker-report-bar {
+  background: #53FFDB;
+  color: #333;
+  padding: .5rem;
+  text-align: center;
+}
+
+#maker-report-bar p {
+  margin: 0;
+  padding: 0;
+}
+
+#maker-report-bar a {
+  color: #663FEF;
+  font-weight: bold;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
