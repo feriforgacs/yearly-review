@@ -485,6 +485,34 @@ img {
   text-align: center;
 }
 
+footer {
+  background: #2E1641;
+  font-size: .8rem;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  margin: 0 auto;
+  max-width: calc(960px - 3rem);
+  padding: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #ccc;
+}
+
 @media only screen and (min-width: 1024px) {
   .columns {
     display: -webkit-box;
@@ -571,6 +599,21 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 1rem;
+  }
+  .product-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .product-cards .card {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    margin-top: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
