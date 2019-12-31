@@ -351,7 +351,9 @@ footer{
   font-size: .8rem;
 
   ul{
+    align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     list-style-type: none;
     margin: 0 auto;
@@ -371,6 +373,11 @@ footer{
 }
 
 @media only screen and (min-width: 1024px){
+  footer{
+    ul{
+      flex-direction: row;
+    }
+  }
   .columns{
     display: flex;
 
